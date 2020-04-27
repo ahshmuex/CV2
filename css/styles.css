@@ -1,0 +1,155 @@
+/*---------------Main Styles---------------*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem; /*100% is 16px, 90/16=562.5% or 1em=16px*/
+  margin-top: 3.125rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #222831;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 20%;
+  margin: 50px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/*---------------Top Section---------------*/
+.programmer-p {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.header {
+  margin-bottom: 0;
+}
+
+.top-container {
+  background-color: #222831;
+  color: #ececec;
+  position: relative;
+  padding-top: 150px;
+}
+
+.mountain {
+  position: relative;
+  bottom: 0;
+  left: auto;
+  right: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  bottom: 300px;
+}
+
+.profile-pic {
+  width: 20%;
+}
+
+/*---------------Middle Section---------------*/
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin:70px auto 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.first-skill-image {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second-skill-image {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.contact-me {
+  width: auto;
+  margin: auto;
+}
+
+
+.btn {
+	background:linear-gradient(to bottom, #222831 5%, #465366 100%);
+	background-color:#222831;
+	border-radius:22px;
+	border:1px solid #465366;
+	display:inline-block;
+	cursor:pointer;
+	color:#ececec;
+	font-family:Verdana;
+	font-size:14px;
+	padding:12px 18px;
+	text-decoration:none;
+	text-shadow:0 0 0 #465366;
+  transition: background-color .25s;
+}
+.btn:hover {
+	background:#465366;
+	background-color:#465366;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*---------------Bottom Section---------------*/
+.twitter-icon {
+  margin-top: 20px;
+  width: 40px;
+}
+
+
+.bottom-container {
+  background-color: #222831;
+  color: #ececec;
+  padding-bottom: 10px;
+}
+
+#copyright {
+  margin: 5px auto 5px auto;
+  font-size: 0.75rem;
+}
